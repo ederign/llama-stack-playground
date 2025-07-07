@@ -1,0 +1,21 @@
+{
+  "name": "llama-stack-playground",
+  "version": "1.0.0",
+  "description": "TypeScript playground for LlamaStack",
+  "main": "agents.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/agents.js",
+    "dev": "tsx agents.ts",
+    "tsn": "tsx"
+  },
+  "dependencies": {
+    "llama-stack-client": "^0.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "tsx": "^4.0.0"
+  },
+  "type": "module"
+} 
